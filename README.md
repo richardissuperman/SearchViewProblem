@@ -1,21 +1,12 @@
 # SearchViewProblem
 
 
-1.<item android:id="@+id/mi_search"
-        android:icon="@drawable/abc"
-        android:title="@string/search"
-        app:showAsAction="always"
-        app:actionViewClass="android.support.v7.widget.SearchView"/>
-
+1.app:showAsAction="always"
+        
 click the search icon in the actionable the menu listener is now working in MainActivity line 26
 
 
 
-2.<item android:id="@+id/mi_search"
-        android:icon="@drawable/abc"
-        android:title="@string/search"
-        app:showAsAction="always|collapseActionView”
-        app:actionViewClass="android.support.v7.widget.SearchView"/>
-
-
+2. app:showAsAction="always|collapseActionView”
+       
 the menu listener is now working in MainActivity , toast show
